@@ -1,45 +1,15 @@
-body{
-    background-color: blue;
-    height: 550px;
-}
-.box{
+
+
+.cube{
     height: 200px;
     width: 200px;
-    background-color: aqua;
+    background-color:red;
+    }
+.cube{
+    display: grid;
+    height: 200px;
     justify-content: center;
     align-items: center;
+    left: 200px;
+
 }
-/* flexbox */
-
-/* body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* gridbox */
-/* body{
-    display:grid;
-    justify-content: center;
-    align-items: center;
-} */
-
-/*margin*/
-/* .box{
-    margin: 200px auto;
-} */
-
-/*using position*/
-
-/* .box{
-    position: relative;
-    left: 45px;
-    top: 200px;
-} */
-
-/*using transform*/
-
-/* .box{ 
-    transform: translate(500px,200px);
-} */
-
